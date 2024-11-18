@@ -1,0 +1,7 @@
+export CUDA_VISIBLE_DEVICES=0
+
+python test_vit.py --exp_id sports_classification_lr_0.001_epochs_5_batch_16_augmentation_True
+python test_vit.py --exp_id sports_classification_lr_0.1_epochs_5_batch_16_augmentation_True
+python test_vit.py --exp_id sports_classification_lr_1e-05_epochs_5_batch_16_augmentation_False
+python test_vit.py --exp_id sports_classification_lr_1e-05_epochs_5_batch_16_augmentation_True
+python test_vit.py --exp_id sports_classification_lr_1e-05_epochs_5_batch_64_augmentation_True
